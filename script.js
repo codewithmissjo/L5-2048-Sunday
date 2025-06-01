@@ -17,8 +17,8 @@ function init() {
     tiles.push([]);
     for ( let c = 0; c < 4; c++) {
       // create a cell and add it to the last row that was added to the #grid
-      $(`#row${r}`).append(`<div class="cell bg-secondary"></div>`);
-      tiles[tiles.length - 1].push("1");
+      $(`#row${r}`).append(`<div class="cell bg-secondary">1</div>`);
+      tiles[tiles.length - 1].push(new Tile());
     }
 
   }
@@ -33,6 +33,22 @@ function init() {
   
   
 }
+
+
+
+// Classes
+function Tile() {
+  this.value = 1;
+}
+
+function drawAlltiles(){
+  for ( let a = 0; a < tiles.length; a++){
+    for ( let b = 0; b < tiles[a].length; b++){
+    
+    }
+  }
+}
+
 
 // document do the thing
 //$(window).on('load', function(){});
