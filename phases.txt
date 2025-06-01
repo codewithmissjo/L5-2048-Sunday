@@ -1,0 +1,11 @@
+[X] Set up the empty grid
+[ ] Add tiles
+    * an array!
+    * what IS a tile?
+    * draw tiles
+[ ] Move tiles
+[ ] Merge tiles
+[ ] Game Over
+[ ] Animating
+[ ] Polishing
+[ ] Additional Challenges

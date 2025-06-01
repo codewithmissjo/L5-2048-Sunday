@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1, .h1, p {
+  color: black;
+}
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+#wrapper {
+  width: min-content;
+  margin: auto;
+  position: relative;
+}
+#grid {
+  padding: 10px;
+  width: 500px;
+}
+#grid>div {
+  line-height: 0;
+}
+.cell {
+  width: 100px;
+  height: 4rem;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  display: inline-block;
+  margin: 10px;
+}
+.tile {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid purple;
+}
+
+.s2 {
+  background-color: #e6e6e6;
+  color: black;
+}
+.s4 {
+  background-color: #d9d9d9;
+  color: black;
+}
+.s8 {
+  background-color: #ffa366;
+}
+.s16 {
+  background-color: #ff751a;
+}
+.s32 {
+  background-color: #ff4d4d;
+}
+.s64 {
+  background-color: #cc2900;
+}
+.s128 {
+  background-color: #e6ac00;
+}
+.s256 {
+  background-color: #ffbf00;
+}
+.s512 {
+  background-color: #ffc61a;
+}
+.s1024 {
+  background-color: #ffcc33;
+  padding-top: 1rem;
+  font-size: 20;
+}
+.s2048 {
+  background-color: #cccc00;
+  padding-top: 1rem;
+  font-size: 20;
+}
+#tiles {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
